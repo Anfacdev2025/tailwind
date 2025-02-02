@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewellery Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[url(img/back4.jpg)]">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <h1 class="text-2xl font-bold text-gray-800">Luxury Jewels</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+        <a href="" class="text-gray-600 hover:text-gray-800">About</a>
+        <a href="prodect1.html" class="text-gray-600 hover:text-gray-800">Product</a>
+        <a href="contact" class="text-gray-600 hover:text-gray-800">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-screen" style="background-image: url('https://source.unsplash.com/1600x900/?jewelry');">
+    <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+      <div class="text-center text-white">
+        <h1 class="text-5xl font-bold">Shine with Elegance</h1>
+        <p class="text-xl mt-4">Discover our exclusive collection of handcrafted jewellery.</p>
+        <a href="#products" class="mt-6 inline-block bg-yellow-500 text-black px-6 py-3 rounded-full text-lg font-semibold hover:bg-yellow-600">Explore Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold text-gray-800 mb-8">Our Collection</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Product 1 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="img/faranti.jpg" alt="Ring" class="w-full h-64 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-gray-800">Elegant Diamond Ring</h3>
+            <p class="text-gray-600 mt-2">$599</p>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="img/dhag.jpg" alt="Necklace" class="w-full h-64 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-gray-800">Gold Necklace</h3>
+            <p class="text-gray-600 mt-2">$899</p>
+          </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="img/isku jir.jpg" alt="Bracelet" class="w-full h-64 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-gray-800">Stylish Bracelet</h3>
+            <p class="text-gray-600 mt-2">$499</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-600  text-white py-32">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Luxury Jewels. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
